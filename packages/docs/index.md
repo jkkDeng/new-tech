@@ -30,6 +30,8 @@ features:
 
 # Hello VitePress
 
+如果 git merge 合并的时候出现 refusing to merge unrelated histories 的错误，原因是两个仓库不同而导致的，需要在后面加上--allow-unrelated-histories 进行允许合并，即可解决问题
+
 <script setup>
 import { useData } from 'vitepress'
 
@@ -37,4 +39,3 @@ const { page } = useData()
 import addOne from 'project-one'
 addOne(10,'docs')
 </script>
-
