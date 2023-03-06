@@ -1,0 +1,24 @@
+{
+  "name": "new-tech2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "turbo-build": "turbo run build",
+    "turbo-dev": "turbo run dev",
+    "turbo-test": "turbo run test",
+    "build-docs": "pnpm --filter \"docs\" build",
+    "dev-docs": "pnpm --filter \"docs\" dev",
+    "dev-one": "pnpm --filter \"project-one\" dev"
+  },
+  "engines": {
+    "node": ">=14",
+    "pnpm": ">=7"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.6.3"
+  }
+}

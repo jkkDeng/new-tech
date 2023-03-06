@@ -1,0 +1,19 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "test": "echo \"Error: no test specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "project-one": "workspace:^1.0.0",
+    "vitepress": "1.0.0-alpha.29",
+    "vue": "^3.2.45"
+  }
+}
